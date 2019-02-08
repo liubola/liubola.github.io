@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>(Hu)go Template Primer - Jane - A super concise theme for Hugo</title>
+  <title>(Hu)go Template Primer - Jane —— 一个简洁的 Hugo 主题</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -64,7 +64,7 @@ This document is a brief primer on using go templates." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://liubola.github.io/post/goisforlovers/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2014-04-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2014-04-02T00:00:00&#43;00:00"/><meta property="og:site_name" content="Jane —— 一个简洁的 Hugo 主题" />
 
 <meta itemprop="name" content="(Hu)go Template Primer">
 <meta itemprop="description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
@@ -73,7 +73,7 @@ This document is a brief primer on using go templates.">
 
 <meta itemprop="datePublished" content="2014-04-02T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2014-04-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1488">
+<meta itemprop="wordCount" content="1559">
 
 
 
@@ -113,28 +113,28 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/">主页</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/">主页</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/post/">全部文章</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/post/">归档</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/tags/">标签</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/tags/">标签</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/categories/">分类</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/categories/">分类</a>
           
         
       </li><li class="mobile-menu-item">
@@ -142,13 +142,6 @@ This document is a brief primer on using go templates."/>
           
           
             <a class="menu-item-link" href="http://liubola.github.io/about/">About</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://liubola.github.io/about/">关于</a>
           
         
       </li><li class="mobile-menu-item">
@@ -181,7 +174,37 @@ This document is a brief primer on using go templates."/>
           </ul>
         
       </li>
-    
+    <li class="mobile-menu-item">
+        
+        <div class="mobile-menu-parent mobile-menu-item-lang">
+          <span class="mobile-submenu-open"></span>
+          <a href="#">
+            
+            <i class="iconfont">
+              <svg height="16" width="16" version="1.1" viewBox="0 0 128 128">
+  <path d="m 64.719501,1.4279814 c -34.694029,0 -62.8192028,28.1251726 -62.8192028,62.8192016 0,34.694036 28.1251738,62.819207 62.8192028,62.819207 4.245691,0 8.392744,-0.42239 12.402214,-1.2253 -1.616124,-0.77296 -1.792473,-6.57213 -0.194346,-9.87848 1.779059,-3.68082 7.361625,-13.00555 1.840404,-16.134231 -5.521221,-3.12869 -3.98755,-4.53968 -7.361625,-8.15914 -3.374083,-3.61947 -1.994181,-4.16357 -2.208492,-5.09179 -0.736158,-3.19004 3.251385,-7.975096 3.435429,-8.465866 0.184043,-0.490781 0.184043,-2.331182 0.122689,-2.883308 -0.06131,-0.552125 -2.515051,-2.024446 -3.12852,-2.085791 -0.613469,-0.06133 -0.920209,0.98154 -1.77906,1.042896 -0.858856,0.06133 -4.601018,-2.269838 -5.39853,-2.883308 -0.797504,-0.61346 -1.165591,-2.085792 -2.269828,-3.190033 -1.104247,-1.104252 -1.226945,-0.24539 -2.944651,-0.920206 -1.717714,-0.674812 -7.238935,-2.69926 -11.471867,-4.416975 -4.23294,-1.717714 -4.601019,-4.125615 -4.662365,-5.827954 -0.06131,-1.702333 -2.57657,-4.171587 -3.756227,-5.950646 -1.179335,-1.77906 -1.396914,-4.232932 -1.826339,-3.680809 -0.429425,0.552114 2.208484,6.993538 1.77906,7.177582 -0.429425,0.184043 -1.349635,-1.77906 -2.576572,-3.374083 -1.226936,-1.595016 1.28829,-0.736159 -2.637915,-8.465864 -3.926198,-7.729705 1.226944,-11.671284 1.472324,-15.704806 0.24539,-4.033514 3.312738,1.472325 1.717715,-1.104238 -1.595016,-2.576571 0.122697,-7.975094 -1.104246,-9.938197 -1.226936,-1.963102 -8.220475,2.208492 -8.220475,2.208492 0.184036,-1.901758 6.134682,-5.153142 10.428966,-8.1591366 4.294277,-3.005996 6.91682,-0.674813 10.367621,0.4294236 3.450803,1.104246 3.680817,0.736167 2.515226,-0.368079 -1.165591,-1.1042446 0.49077,-1.6563686 3.190031,-1.2269356 2.699269,0.429425 3.435428,3.6808086 7.545669,3.3740746 4.110242,-0.306735 0.429425,0.797511 0.981548,1.840412 0.552123,1.042892 -0.613468,0.920202 -3.312729,2.760607 -2.699262,1.840403 0.06131,1.840403 4.846407,5.337177 4.785055,3.496773 3.312729,-2.331183 2.821952,-4.907753 -0.490777,-2.576563 3.496773,-0.552115 3.496773,-0.552115 2.944651,1.963094 2.400546,0.107972 4.547684,0.782784 2.147139,0.674814 7.967076,5.597286 7.967076,5.597286 -7.300273,3.98755 -2.699261,4.416975 -1.472325,5.337178 1.226937,0.920202 -2.515218,2.699261 -2.515218,2.699261 -1.53367,-1.53367 -1.779059,0.06131 -2.760614,0.613476 -0.981548,0.552115 -0.06131,1.963095 -0.06131,1.963095 -5.076415,0.797512 -3.926198,6.13469 -3.864852,7.422971 0.06131,1.288289 -3.251385,3.251384 -4.110242,5.091796 -0.858857,1.840405 2.208491,5.827948 0.613468,6.073336 -1.595016,0.24539 -3.190031,-6.011991 -11.778601,-3.680808 -2.589322,0.702954 -8.343174,3.680808 -5.275824,9.754153 3.06734,6.073336 8.15913,-1.717714 9.876843,-0.858857 1.717714,0.858857 -0.490778,4.72371 -0.122691,4.785055 0.368079,0.06131 4.8464,0.168662 5.09179,5.398522 0.245388,5.229868 6.809502,4.785065 8.220482,4.907755 1.410972,0.12269 6.134682,-3.864859 6.809502,-4.048894 0.674815,-0.184034 3.374076,-2.453876 9.263377,0.920195 5.889301,3.374089 8.895296,2.883308 10.919743,4.294285 2.02445,1.410987 0.61347,4.232939 2.51523,5.153134 1.90175,0.920217 9.50876,-0.306736 11.41051,2.821966 1.90176,3.1287 -7.8524,18.833491 -10.91974,20.551201 -3.06734,1.71772 -4.478321,5.64392 -7.545665,8.15913 -3.067349,2.51523 -7.361625,5.62854 -11.410522,8.03646 -3.583968,2.1311 -4.228845,5.949 -5.825333,7.15419 28.11404,-6.24545 49.13623,-31.328971 49.13623,-61.323497 0,-34.694029 -28.125171,-62.8192016 -62.819206,-62.8192016 z M 79.442753,60.382331 c -0.858857,0.245389 -2.637917,1.840405 -6.993547,-0.736166 -4.35563,-2.576564 -7.361625,-2.085794 -7.729705,-2.515218 0,0 -0.368079,-1.0429 1.533671,-1.226937 3.905098,-0.378065 8.833951,3.619464 9.938196,3.680809 1.104246,0.06131 1.656361,-1.104245 3.619464,-0.471631 1.963103,0.631953 0.490777,1.023755 -0.368079,1.269143 z M 58.891546,7.6853614 c -0.427786,-0.311152 0.354344,-0.669418 0.82058,-1.288281 0.269103,-0.357613 0.0695,-0.951289 0.406356,-1.28829 0.92021,-0.920203 5.459876,-2.208485 4.572225,0.306734 -0.887321,2.515226 -5.12434,2.760614 -5.799161,2.269837 z m 10.98109,7.9750936 c -1.533672,-0.06131 -5.14381,-0.442837 -4.478321,-1.104246 2.591952,-2.576563 -0.981548,-3.312729 -3.190039,-3.496766 -2.208485,-0.184043 -3.128687,-1.4109786 -2.02444,-1.5336776 1.104237,-0.12269 5.521213,0.06139 6.257379,0.6748206 0.736158,0.613469 4.723709,2.208485 4.969099,3.374076 0.24538,1.16559 0,2.147138 -1.533678,2.085793 z M 83.184914,15.23103 c -1.226943,0.981547 -7.400887,-3.521968 -8.588569,-4.539674 -5.153134,-4.4169746 -7.913742,-2.9446486 -8.995903,-3.6808086 -1.082485,-0.736166 -0.696897,-1.717713 0.959464,-3.190039 1.656369,-1.472325 6.318732,0.490778 9.017994,0.797512 2.699262,0.306734 5.827955,2.392527 5.889301,4.871925 0.06131,2.4792256 2.944649,4.7595296 1.717713,5.7410846 z" />
+</svg>
+
+            </i>
+            语言
+          </a>
+        </div>
+        <ul class="mobile-submenu-list">
+          
+            <li>
+              
+                <a href="http://liubola.github.io/en/">English</a>
+              
+            </li>
+          
+            <li>
+              
+                <a href="http://liubola.github.io/"><strong>中文</strong></a>
+              
+            </li>
+          
+        </ul>
+      </li>
   </ul>
 </nav>
 
@@ -194,8 +217,8 @@ This document is a brief primer on using go templates."/>
 
 
 
-  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
-  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" integrity="sha256-LWdHSKWG7zv3DTpee8YAgoTfkj3gNkfauF624h4P2Nw=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css" integrity="sha256-Q9bBMw/rHRRag46GDWY84J3elDNc8JJjKXL9tIC4oe8=" crossorigin="anonymous" />
 
 
 
@@ -247,6 +270,23 @@ This document is a brief primer on using go templates."/>
   
 
   
+    <style>
+      .fork-me-on-github {
+        position: absolute; top: 0; left: 0; border: 0;
+      }
+      @media (max-width: 1080px) {
+        .fork-me-on-github {
+          display: none;
+        }
+      }
+    </style>
+
+    <a href="https://github.com/xianmin/hugo-theme-jane">
+      <img class="fork-me-on-github"
+        src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"
+        alt="Fork me on GitHub">
+    </a>
+  
 
   <header id="header" class="header container">
     <div class="logo-wrapper">
@@ -265,7 +305,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/">主页</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/">主页</a>
           
 
         
@@ -276,7 +316,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/post/">全部文章</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/post/">归档</a>
           
 
         
@@ -287,7 +327,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/tags/">标签</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/tags/">标签</a>
           
 
         
@@ -298,7 +338,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://liubola.github.io/categories/">分类</a>
+            <a class="menu-item-link" href="http://liubola.github.io/zh-cn/categories/">分类</a>
           
 
         
@@ -310,17 +350,6 @@ This document is a brief primer on using go templates."/>
           
           
             <a class="menu-item-link" href="http://liubola.github.io/about/">About</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://liubola.github.io/about/">关于</a>
           
 
         
@@ -355,6 +384,30 @@ This document is a brief primer on using go templates."/>
 
       </li>
     
+    <li class="menu-item">
+        
+        <a class="menu-item-link menu-parent menu-item-lang" href="#">
+          
+          <i class="iconfont">
+            <svg height="16" width="16" version="1.1" viewBox="0 0 128 128">
+  <path d="m 64.719501,1.4279814 c -34.694029,0 -62.8192028,28.1251726 -62.8192028,62.8192016 0,34.694036 28.1251738,62.819207 62.8192028,62.819207 4.245691,0 8.392744,-0.42239 12.402214,-1.2253 -1.616124,-0.77296 -1.792473,-6.57213 -0.194346,-9.87848 1.779059,-3.68082 7.361625,-13.00555 1.840404,-16.134231 -5.521221,-3.12869 -3.98755,-4.53968 -7.361625,-8.15914 -3.374083,-3.61947 -1.994181,-4.16357 -2.208492,-5.09179 -0.736158,-3.19004 3.251385,-7.975096 3.435429,-8.465866 0.184043,-0.490781 0.184043,-2.331182 0.122689,-2.883308 -0.06131,-0.552125 -2.515051,-2.024446 -3.12852,-2.085791 -0.613469,-0.06133 -0.920209,0.98154 -1.77906,1.042896 -0.858856,0.06133 -4.601018,-2.269838 -5.39853,-2.883308 -0.797504,-0.61346 -1.165591,-2.085792 -2.269828,-3.190033 -1.104247,-1.104252 -1.226945,-0.24539 -2.944651,-0.920206 -1.717714,-0.674812 -7.238935,-2.69926 -11.471867,-4.416975 -4.23294,-1.717714 -4.601019,-4.125615 -4.662365,-5.827954 -0.06131,-1.702333 -2.57657,-4.171587 -3.756227,-5.950646 -1.179335,-1.77906 -1.396914,-4.232932 -1.826339,-3.680809 -0.429425,0.552114 2.208484,6.993538 1.77906,7.177582 -0.429425,0.184043 -1.349635,-1.77906 -2.576572,-3.374083 -1.226936,-1.595016 1.28829,-0.736159 -2.637915,-8.465864 -3.926198,-7.729705 1.226944,-11.671284 1.472324,-15.704806 0.24539,-4.033514 3.312738,1.472325 1.717715,-1.104238 -1.595016,-2.576571 0.122697,-7.975094 -1.104246,-9.938197 -1.226936,-1.963102 -8.220475,2.208492 -8.220475,2.208492 0.184036,-1.901758 6.134682,-5.153142 10.428966,-8.1591366 4.294277,-3.005996 6.91682,-0.674813 10.367621,0.4294236 3.450803,1.104246 3.680817,0.736167 2.515226,-0.368079 -1.165591,-1.1042446 0.49077,-1.6563686 3.190031,-1.2269356 2.699269,0.429425 3.435428,3.6808086 7.545669,3.3740746 4.110242,-0.306735 0.429425,0.797511 0.981548,1.840412 0.552123,1.042892 -0.613468,0.920202 -3.312729,2.760607 -2.699262,1.840403 0.06131,1.840403 4.846407,5.337177 4.785055,3.496773 3.312729,-2.331183 2.821952,-4.907753 -0.490777,-2.576563 3.496773,-0.552115 3.496773,-0.552115 2.944651,1.963094 2.400546,0.107972 4.547684,0.782784 2.147139,0.674814 7.967076,5.597286 7.967076,5.597286 -7.300273,3.98755 -2.699261,4.416975 -1.472325,5.337178 1.226937,0.920202 -2.515218,2.699261 -2.515218,2.699261 -1.53367,-1.53367 -1.779059,0.06131 -2.760614,0.613476 -0.981548,0.552115 -0.06131,1.963095 -0.06131,1.963095 -5.076415,0.797512 -3.926198,6.13469 -3.864852,7.422971 0.06131,1.288289 -3.251385,3.251384 -4.110242,5.091796 -0.858857,1.840405 2.208491,5.827948 0.613468,6.073336 -1.595016,0.24539 -3.190031,-6.011991 -11.778601,-3.680808 -2.589322,0.702954 -8.343174,3.680808 -5.275824,9.754153 3.06734,6.073336 8.15913,-1.717714 9.876843,-0.858857 1.717714,0.858857 -0.490778,4.72371 -0.122691,4.785055 0.368079,0.06131 4.8464,0.168662 5.09179,5.398522 0.245388,5.229868 6.809502,4.785065 8.220482,4.907755 1.410972,0.12269 6.134682,-3.864859 6.809502,-4.048894 0.674815,-0.184034 3.374076,-2.453876 9.263377,0.920195 5.889301,3.374089 8.895296,2.883308 10.919743,4.294285 2.02445,1.410987 0.61347,4.232939 2.51523,5.153134 1.90175,0.920217 9.50876,-0.306736 11.41051,2.821966 1.90176,3.1287 -7.8524,18.833491 -10.91974,20.551201 -3.06734,1.71772 -4.478321,5.64392 -7.545665,8.15913 -3.067349,2.51523 -7.361625,5.62854 -11.410522,8.03646 -3.583968,2.1311 -4.228845,5.949 -5.825333,7.15419 28.11404,-6.24545 49.13623,-31.328971 49.13623,-61.323497 0,-34.694029 -28.125171,-62.8192016 -62.819206,-62.8192016 z M 79.442753,60.382331 c -0.858857,0.245389 -2.637917,1.840405 -6.993547,-0.736166 -4.35563,-2.576564 -7.361625,-2.085794 -7.729705,-2.515218 0,0 -0.368079,-1.0429 1.533671,-1.226937 3.905098,-0.378065 8.833951,3.619464 9.938196,3.680809 1.104246,0.06131 1.656361,-1.104245 3.619464,-0.471631 1.963103,0.631953 0.490777,1.023755 -0.368079,1.269143 z M 58.891546,7.6853614 c -0.427786,-0.311152 0.354344,-0.669418 0.82058,-1.288281 0.269103,-0.357613 0.0695,-0.951289 0.406356,-1.28829 0.92021,-0.920203 5.459876,-2.208485 4.572225,0.306734 -0.887321,2.515226 -5.12434,2.760614 -5.799161,2.269837 z m 10.98109,7.9750936 c -1.533672,-0.06131 -5.14381,-0.442837 -4.478321,-1.104246 2.591952,-2.576563 -0.981548,-3.312729 -3.190039,-3.496766 -2.208485,-0.184043 -3.128687,-1.4109786 -2.02444,-1.5336776 1.104237,-0.12269 5.521213,0.06139 6.257379,0.6748206 0.736158,0.613469 4.723709,2.208485 4.969099,3.374076 0.24538,1.16559 0,2.147138 -1.533678,2.085793 z M 83.184914,15.23103 c -1.226943,0.981547 -7.400887,-3.521968 -8.588569,-4.539674 -5.153134,-4.4169746 -7.913742,-2.9446486 -8.995903,-3.6808086 -1.082485,-0.736166 -0.696897,-1.717713 0.959464,-3.190039 1.656369,-1.472325 6.318732,0.490778 9.017994,0.797512 2.699262,0.306734 5.827955,2.392527 5.889301,4.871925 0.06131,2.4792256 2.944649,4.7595296 1.717713,5.7410846 z" />
+</svg>
+
+          </i>
+          中文
+        </a>
+        <ul class="submenu">
+          
+            
+              <li>
+                <a href="http://liubola.github.io/en/">English</a>
+              </li>
+            
+          
+            
+          
+        </ul>
+      </li>
     
   </ul>
 </nav>
@@ -380,7 +433,8 @@ This document is a brief primer on using go templates."/>
             <a href="http://liubola.github.io/categories/index/"> index </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1559 字 </span>
+          <span class="more-meta"> 预计阅读 8 分钟 </span>
 
         
         
@@ -454,29 +508,45 @@ functions.</p>
 <p><strong>Go variables and functions are accessible within {{ }}</strong></p>
 
 <p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
-
-<pre><code>{{ foo }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ foo }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Parameters are separated using spaces</strong></p>
 
 <p>Calling the add function with input of 1, 2:</p>
-
-<pre><code>{{ add 1 2 }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ add 1 2 }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Methods and fields are accessed via dot notation</strong></p>
 
 <p>Accessing the Page Parameter &ldquo;bar&rdquo;</p>
-
-<pre><code>{{ .Params.bar }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ .Params.bar }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Parentheses can be used to group items together</strong></p>
-
-<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if or (isset .Params &#34;alt&#34;) (isset .Params &#34;caption&#34;) }} Caption {{ end }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="variables">Variables</h2>
 
 <p>Each go template has a struct (object) made available to it. In hugo each
@@ -485,16 +555,25 @@ page you are rendering. More details are available on the
 <a href="/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
-
-<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&lt;title&gt;{{ .Title }}&lt;/title&gt;</pre></td></tr></table>
+</div>
+</div>
 <p>Variables can also be defined and referenced.</p>
-
-<pre><code>{{ $address := &quot;123 Main St.&quot;}}
-{{ $address }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ $address := &#34;123 Main St.&#34;}}
+{{ $address }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="functions">Functions</h2>
 
 <p>Go template ship with a few functions which provide basic functionality. The go
@@ -506,10 +585,14 @@ followed by the required parameters separated by spaces. Template
 functions cannot be added without recompiling hugo.</p>
 
 <p><strong>Example:</strong></p>
-
-<pre><code>{{ add 1 2 }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ add 1 2 }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="includes">Includes</h2>
 
 <p>When including another template you will pass to it the data it will be
@@ -518,10 +601,14 @@ include a trailing dot. The templates location will always be starting at
 the /layout/ directory within Hugo.</p>
 
 <p><strong>Example:</strong></p>
-
-<pre><code>{{ template &quot;chrome/header.html&quot; . }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ template &#34;chrome/header.html&#34; . }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="logic">Logic</h2>
 
 <p>Go templates provide the most basic iteration and conditional logic.</p>
@@ -533,27 +620,46 @@ a map, array or slice. The following are different examples of how to use
 range.</p>
 
 <p><strong>Example 1: Using Context</strong></p>
-
-<pre><code>{{ range array }}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ range array }}
     {{ . }}
-{{ end }}
-</code></pre>
-
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 2: Declaring value variable name</strong></p>
-
-<pre><code>{{range $element := array}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{range $element := array}}
     {{ $element }}
-{{ end }}
-</code></pre>
-
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 2: Declaring key and value variable name</strong></p>
-
-<pre><code>{{range $index, $element := array}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{range $index, $element := array}}
     {{ $index }}
     {{ $element }}
-{{ end }}
-</code></pre>
-
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <h3 id="conditionals">Conditionals</h3>
 
 <p>If, else, with, or, &amp; and provide the framework for handling conditional
@@ -568,24 +674,40 @@ logic in Go Templates. Like range, each statement is closed with <code>end</code
 </ul>
 
 <p><strong>Example 1: If</strong></p>
-
-<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if isset .Params &#34;title&#34; }}&lt;h4&gt;{{ index .Params &#34;title&#34; }}&lt;/h4&gt;{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 2: If -&gt; Else</strong></p>
-
-<pre><code>{{ if isset .Params &quot;alt&quot; }}
-    {{ index .Params &quot;alt&quot; }}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if isset .Params &#34;alt&#34; }}
+    {{ index .Params &#34;alt&#34; }}
 {{else}}
-    {{ index .Params &quot;caption&quot; }}
-{{ end }}
-</code></pre>
-
+    {{ index .Params &#34;caption&#34; }}
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 3: And &amp; Or</strong></p>
-
-<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if and (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;)) (isset .Params &#34;attr&#34;)}}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 4: With</strong></p>
 
 <p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value
@@ -593,19 +715,31 @@ is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> wi
 and skips the block if the variable is absent.</p>
 
 <p>The first example above could be simplified as:</p>
-
-<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p><strong>Example 5: If -&gt; Else If</strong></p>
-
-<pre><code>{{ if isset .Params &quot;alt&quot; }}
-    {{ index .Params &quot;alt&quot; }}
-{{ else if isset .Params &quot;caption&quot; }}
-    {{ index .Params &quot;caption&quot; }}
-{{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if isset .Params &#34;alt&#34; }}
+    {{ index .Params &#34;alt&#34; }}
+{{ else if isset .Params &#34;caption&#34; }}
+    {{ index .Params &#34;caption&#34; }}
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="pipes">Pipes</h2>
 
 <p>One of the most powerful components of go templates is the ability to
@@ -621,39 +755,63 @@ becomes the last parameter of the next pipeline.</p>
 <p>A few simple examples should help convey how to use the pipe.</p>
 
 <p><strong>Example 1 :</strong></p>
-
-<pre><code>{{ if eq 1 1 }} Same {{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if eq 1 1 }} Same {{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p>is the same as</p>
-
-<pre><code>{{ eq 1 1 | if }} Same {{ end }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ eq 1 1 | if }} Same {{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p>It does look odd to place the if at the end, but it does provide a good
 illustration of how to use the pipes.</p>
 
 <p><strong>Example 2 :</strong></p>
-
-<pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ index .Params &#34;disqus_url&#34; | html }}</pre></td></tr></table>
+</div>
+</div>
 <p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p>
 
 <p><strong>Example 3 :</strong></p>
-
-<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{ if or (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;)) (isset .Params &#34;attr&#34;)}}
 Stuff Here
-{{ end }}
-</code></pre>
-
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p>Could be rewritten as</p>
-
-<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{  isset .Params &#34;caption&#34; | or isset .Params &#34;title&#34; | or isset .Params &#34;attr&#34; | if }}
 Stuff Here
-{{ end }}
-</code></pre>
-
+{{ end }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
 
 <p>The most easily overlooked concept to understand about go templates is that {{ . }}
@@ -665,13 +823,20 @@ access this from within the loop you will likely want to set it to a variable
 instead of depending on the context.</p>
 
 <p><strong>Example:</strong></p>
-
-<pre><code>  {{ $title := .Site.Title }}
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">  {{ $title := .Site.Title }}
   {{ range .Params.tags }}
-    &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
-  {{ end }}
-</code></pre>
-
+    &lt;li&gt; &lt;a href=&#34;{{ $baseurl }}/tags/{{ . | urlize }}&#34;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+  {{ end }}</pre></td></tr></table>
+</div>
+</div>
 <p>Notice how once we have entered the loop the value of {{ . }} has changed. We
 have defined a variable outside of the loop so we have access to it from within
 the loop.</p>
@@ -695,73 +860,123 @@ doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front m
 of some pages to turn off the TOC from being displayed.</p>
 
 <p>Here is the example front matter:</p>
-
-<pre><code>---
-title: &quot;Permalinks&quot;
-date: &quot;2013-11-18&quot;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">---
+title: &#34;Permalinks&#34;
+date: &#34;2013-11-18&#34;
 aliases:
-  - &quot;/doc/permalinks/&quot;
-groups: [&quot;extras&quot;]
+  - &#34;/doc/permalinks/&#34;
+groups: [&#34;extras&#34;]
 groups_weight: 30
 notoc: true
----
-</code></pre>
-
+---</pre></td></tr></table>
+</div>
+</div>
 <p>Here is the corresponding code inside of the template:</p>
-
-<pre><code>  {{ if not .Params.notoc }}
-    &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">  {{ if not .Params.notoc }}
+    &lt;div id=&#34;toc&#34; class=&#34;well col-md-4 col-sm-6&#34;&gt;
     {{ .TableOfContents }}
     &lt;/div&gt;
-  {{ end }}
-</code></pre>
-
+  {{ end }}</pre></td></tr></table>
+</div>
+</div>
 <h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
 
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 
 <p>For instance, you might declare:</p>
-
-<pre><code class="language-yaml">params:
-  CopyrightHTML: &quot;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&quot;
-  TwitterUser: &quot;spf13&quot;
-  SidebarRecentLimit: 5
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml">params<span class="p">:</span><span class="w">
+</span><span class="w">  </span>CopyrightHTML<span class="p">:</span><span class="w"> </span><span class="s2">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span><span class="w">
+</span><span class="w">  </span>TwitterUser<span class="p">:</span><span class="w"> </span><span class="s2">&#34;spf13&#34;</span><span class="w">
+</span><span class="w">  </span>SidebarRecentLimit<span class="p">:</span><span class="w"> </span><span class="m">5</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-
-<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
-&lt;/footer&gt;{{end}}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+&lt;/footer&gt;{{end}}</pre></td></tr></table>
+</div>
+</div>
 <p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-
-<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
-&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
-&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
- alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;{{end}}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
+&lt;/span&gt;{{end}}</pre></td></tr></table>
+</div>
+</div>
 <p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-
-<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&lt;nav class=&#34;recent&#34;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
-&lt;/nav&gt;
-</code></pre>
-
+&lt;/nav&gt;</pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -778,7 +993,7 @@ so, such as in this example:</p>
   
   <p class="copyright-item">
     <span class="item-title">许可协议</span>
-    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
   </p>
 </div>
 
@@ -843,7 +1058,33 @@ so, such as in this example:</p>
 
   
 
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    显示 Disqus 评论
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_config = function () {
+      this.page.url = "http://liubola.github.io/post/goisforlovers/";
+    };
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'liubola';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
   
+  </div>
   
     
 
@@ -940,30 +1181,25 @@ so, such as in this example:</p>
     </div>
   </div>
   
-<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.bootcss.com/slideout/1.0.1/slideout.min.js" crossorigin="anonymous"></script>
 
 
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-    window.MathJax = {
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    };
-  </script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 
 
 
 
   
-    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="/js/load-photoswipe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk="
+      crossorigin="anonymous"></script>
   
 
 
