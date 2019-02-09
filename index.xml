@@ -17,18 +17,17 @@
       
       <guid>http://liubola.github.io/about/</guid>
       
-        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+        <description>
 
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;h5 id=&#34;刘昺轶&#34;&gt;刘昺轶&lt;/h5&gt;
+
+&lt;p&gt;quant&amp;amp;bodybuilding&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;E-mail：lby3523@gmail.com&lt;/li&gt;
+&lt;li&gt;Blog：&lt;a href=&#34;https://liubola.github.io&#34;&gt;liubola.github.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;WeChat：liubola&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
       
     </item>
