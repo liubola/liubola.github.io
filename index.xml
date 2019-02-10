@@ -61,7 +61,63 @@
 
 &lt;h3 id=&#34;第二类选择&#34;&gt;第二类选择&lt;/h3&gt;
 
-&lt;p&gt;未完待续&lt;/p&gt;</description>
+&lt;p&gt;如果上一类选择可以说是偏向宏观的选择，这一类则更偏向微观。&lt;/p&gt;
+
+&lt;p&gt;如果在二级市场，则是挑选股票，放在房产市场，则是在全市二手房里挑挑拣拣，贴近生活的话，则是逛逛淘宝大卖场之类的选择。&lt;/p&gt;
+
+&lt;h4 id=&#34;买菜&#34;&gt;买菜&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://5b0988e595225.cdn.sohucs.com/images/20180118/3b1db8890acf485cbcb4387d21cf098f.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;举一些很简单的例子，如果出去买蔬菜，考虑何种蔬菜更为划算（&lt;strong&gt;性价比高&lt;/strong&gt;）大家一般会考虑以下几点。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;价格&lt;/li&gt;
+&lt;li&gt;新鲜程度&lt;/li&gt;
+&lt;li&gt;是否有机&lt;/li&gt;
+&lt;li&gt;是否时令蔬菜&lt;/li&gt;
+&lt;li&gt;单位质量营养&lt;/li&gt;
+&lt;li&gt;个人喜好&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;通过这些要素（&lt;strong&gt;因子暴露&lt;/strong&gt;），我们可以构建一个蔬菜的多因子模型，买到性价比最高的一类蔬菜。（&lt;strong&gt;当然现实生活中这样做的人几乎没有，这边只是举个例子&lt;/strong&gt;），虽然这几点看起来把买菜的流程复杂化了，但因子数量还是远远小于蔬菜种类的。不过这又和股票有些许不同，在挑选蔬菜中我们只是为了满足自己的需要，而不是预测蔬菜的价格。&lt;/p&gt;
+
+&lt;h4 id=&#34;买房&#34;&gt;买房&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://ladichan.com/wp-content/uploads/2016/02/wealth_building_home_loan_shutterstock_900x557.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;而买房的话，又会介于两者之间，既要满足自住的需要，同时又希望作为资产有超越平均水平的增值能力。以上海为例，大家一般会考虑以下几点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;周围2km内地铁数量&lt;/li&gt;
+&lt;li&gt;到人民广场的距离&lt;/li&gt;
+&lt;li&gt;单价&lt;/li&gt;
+&lt;li&gt;税费情况&lt;/li&gt;
+&lt;li&gt;学区&lt;/li&gt;
+&lt;li&gt;房龄&lt;/li&gt;
+&lt;li&gt;是否电梯&lt;/li&gt;
+&lt;li&gt;得房率&lt;/li&gt;
+&lt;li&gt;小区环境&lt;/li&gt;
+&lt;li&gt;周围 商场、菜场、教育机构等分布情况&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基本以上几点应该覆盖了二手房的大多数属性。&lt;/p&gt;
+
+&lt;p&gt;如果是挑选房产，则按照自身 偏好对&lt;strong&gt;因子暴露&lt;/strong&gt;进行配权，从而得到一个总的二手房评分。&lt;/p&gt;
+
+&lt;p&gt;如果是投资房产，则需要将房产增值部分对各项&lt;strong&gt;因子暴露&lt;/strong&gt;（地段，学区等）进行分解，再结合过去&lt;strong&gt;因子收益&lt;/strong&gt;（即过去学区房是否收到追捧，环线概念得到弱化，城市副中心兴起等）的表现进行挑选。&lt;/p&gt;
+
+&lt;p&gt;当然，在投资房产中，存在较大的&lt;strong&gt;特异性收益&lt;/strong&gt;，如拆迁、地铁规划、成立新区等，这虽然是房产收益的一个主要来源，却可遇不可求，正如欧神所言，他对于资产的要求就是足够便宜，做好&lt;strong&gt;基本盘&lt;/strong&gt;（公开信息的因子暴露）而不是去追求虚无缥缈的**特质收益 **。&lt;/p&gt;
+
+&lt;h2 id=&#34;一切皆为多因子&#34;&gt;一切皆为多因子&lt;/h2&gt;
+
+&lt;p&gt;前面分别举了买房和买菜两个例子，我们可以发现，在第二类选择之中我们的挑选逻辑是十分自然的，蔬菜的品种何其之多，很多我们甚至闻所未闻，见所未见。上海二手房数量怎么着也有个几万套，我们更不可能逐套查验。所以自然而然的将蔬菜或者房产分解到其共有的&lt;strong&gt;因子暴露&lt;/strong&gt;上，通过这些公开数据，我们试图较为快速的找出自己心仪的商品，这一做法和多因子模型何其相像？&lt;/p&gt;
+
+&lt;p&gt;其本质思想还是&lt;strong&gt;降维&lt;/strong&gt;，化繁为简。这种做法虽然可能损失了部分信息，比如上海某些二手房存在开发商赠送面积的现象，这点就只能通过上门看房才能发现，我们无法得到一个最优解，但是至少我们可以得到一个较优解，且节约了大量时间，这种以精度换时间的做法还是推广的（&lt;strong&gt;毕竟如果把投资当做主业的话，选择的频率大大提升了，为了生活质量，还是有必要牺牲一点精度&lt;/strong&gt;）。&lt;/p&gt;
+
+&lt;p&gt;所以多因子模型虽然称不上神奇，确实符合人类自然逻辑的一种模型，这也是大家将其奉为经典的原因之一吧。&lt;/p&gt;
+
+&lt;p&gt;同样在生活中，如果我们遇到了第二类选择的烦恼，不妨试试多因子模型，并不需要严格建模，而是借鉴其思想，或许也可帮助梳理思路。&lt;/p&gt;</description>
       
     </item>
     
