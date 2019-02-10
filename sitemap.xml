@@ -24,6 +24,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/post/post-title/</loc>
+    <lastmod>2017-09-09T12:57:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -37,7 +44,15 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/tags/quant/</loc>
+    <lastmod>2017-09-09T12:57:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/tags/</loc>
+    <lastmod>2017-09-09T12:57:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

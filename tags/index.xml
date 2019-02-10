@@ -5,9 +5,19 @@
     <link>http://liubola.github.io/tags/</link>
     <description>Recent content in Tags on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Sep 2017 12:57:36 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quant</title>
+      <link>http://liubola.github.io/tags/quant/</link>
+      <pubDate>Sat, 09 Sep 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/tags/quant/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
