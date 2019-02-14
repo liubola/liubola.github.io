@@ -37,9 +37,9 @@
       
       <guid>http://liubola.github.io/post/sqlalchemy%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8/</guid>
       
-        <description>
+        <description>&lt;p&gt;最近搞代码输出，帮客户配置一些代码库，常常需要用到客户本地的数据库，比如恒生聚源或者wind底层库，这时就要连接底层数据可，但是配置方面常常出问题，特别是oracle数据库，所以这里留个痕，方便以后查看。&lt;/p&gt;
 
-&lt;p&gt;最近搞代码输出，帮客户配置一些代码库，常常需要用到客户本地的数据库，比如恒生聚源或者wind底层库，这时就要连接底层数据可，但是配置方面常常出问题，特别是oracle数据库，所以这里留个痕，方便以后查看。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.virtualzero.net/static/images/blog/flask_sqlalchemy/connect-a-flask-app-to-a-mysql-database-with-sqlalchemy-and-pymysql.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;sqlalchemy数据库连接写法&#34;&gt;sqlalchemy数据库连接写法&lt;/h2&gt;
 
@@ -288,8 +288,7 @@ db.create_all()&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/liubola/sangreal-db/master/img/tables.png&#34; alt=&#34;tables&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/liubola/sangreal-db/master/img/columns.png&#34; alt=&#34;columns&#34; /&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/liubola/sangreal-db/master/img/columns.png&#34; alt=&#34;columns&#34; /&gt;&lt;/p&gt;</description>
       
     </item>
     
