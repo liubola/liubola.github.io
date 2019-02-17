@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/post/github%E5%85%8D%E5%AF%86/</loc>
+    <lastmod>2019-02-17T11:39:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/post/mysqlclient%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2019-02-15T21:30:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,6 +135,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/tags/linux/</loc>
+    <lastmod>2019-02-17T11:39:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/tags/ml/</loc>
     <lastmod>2017-11-22T12:57:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -136,7 +150,7 @@
   
   <url>
     <loc>http://liubola.github.io/post/</loc>
-    <lastmod>2019-02-15T21:30:05+08:00</lastmod>
+    <lastmod>2019-02-17T11:39:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
