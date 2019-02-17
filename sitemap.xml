@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/post/mysqlclient%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2019-02-15T21:30:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/post/sqlalchemy%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8/</loc>
     <lastmod>2019-02-14T12:46:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,7 +122,7 @@
   
   <url>
     <loc>http://liubola.github.io/tags/life/</loc>
-    <lastmod>2019-02-10T12:11:26+08:00</lastmod>
+    <lastmod>2019-02-15T21:30:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -129,7 +136,7 @@
   
   <url>
     <loc>http://liubola.github.io/post/</loc>
-    <lastmod>2019-02-14T12:46:36+08:00</lastmod>
+    <lastmod>2019-02-15T21:30:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
