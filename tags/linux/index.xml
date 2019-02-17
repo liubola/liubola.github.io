@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/tags/linux/</link>
     <description>Recent content in Linux on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Feb 2019 11:39:01 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Feb 2019 11:43:10 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zsh及autojump配置</title>
+      <link>http://liubola.github.io/post/zsh%E5%8F%8Aautojump%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sun, 17 Feb 2019 11:43:10 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/zsh%E5%8F%8Aautojump%E9%85%8D%E7%BD%AE/</guid>
+      <description>zsh以及autojumo是linxu下办公的神器。 zsh 1 2 3 sudo apt-get install zsh wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /usr/bin/zsh autojump 1 2 3 git clone git://github.com/joelthelion/autojump.git cd autojump python install.py 安装完成后会跳出来一段后让你添加</description>
+    </item>
     
     <item>
       <title>Github免密</title>
