@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/post/%E5%AE%9E%E7%8E%B0deepin%E4%B8%8B%E7%B1%BB%E4%BC%BCmac%E4%B8%ADopen%E7%9A%84%E5%8A%9F%E8%83%BD/</loc>
+    <lastmod>2019-02-17T11:56:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/post/zsh%E5%8F%8Aautojump%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2019-02-17T11:43:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,7 +150,7 @@
   
   <url>
     <loc>http://liubola.github.io/tags/linux/</loc>
-    <lastmod>2019-02-17T11:43:10+08:00</lastmod>
+    <lastmod>2019-02-17T11:56:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -157,7 +164,7 @@
   
   <url>
     <loc>http://liubola.github.io/post/</loc>
-    <lastmod>2019-02-17T11:43:10+08:00</lastmod>
+    <lastmod>2019-02-17T11:56:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
