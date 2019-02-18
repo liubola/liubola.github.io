@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/tags/linux/</link>
     <description>Recent content in Linux on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Feb 2019 18:49:19 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 19:18:07 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mysql远程连接</title>
+      <link>http://liubola.github.io/post/mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Mon, 18 Feb 2019 19:18:07 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/</guid>
+      <description>连接mysql 1 2 3 4 5 6 7 mysql -uroot -p grant all privileges on *.* to &amp;#39;root&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;YOUR_PASSWORD&amp;#39; with grant option; flush privileges; exit 修改配置 1 sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf 将bind-address = 127.0.0.1注释 1 service mysql restart</description>
+    </item>
     
     <item>
       <title>修改mysql初始密码</title>
