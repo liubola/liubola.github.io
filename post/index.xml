@@ -25,7 +25,7 @@
       <pubDate>Mon, 18 Feb 2019 18:49:19 +0800</pubDate>
       
       <guid>http://liubola.github.io/post/%E4%BF%AE%E6%94%B9mysql%E5%88%9D%E5%A7%8B%E5%AF%86%E7%A0%81/</guid>
-      <description>最近在linux安装mysql，突然发现在安装过程中不会让你输入root密码了，需要自己手动查看和修改，特此记录一下。 安装 1 2 sudo apt-get update sudo apt-get install mysql-server</description>
+      <description>最近在linux重新安装mysql，突然发现在安装过程中不会让你输入root密码了，需要自己手动查看和修改，特此记录一下。 安装 1 2 sudo apt-get update sudo apt-get</description>
     </item>
     
     <item>

@@ -94,7 +94,7 @@ exit&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       
         <description>
 
-&lt;p&gt;最近在linux安装mysql，突然发现在安装过程中不会让你输入root密码了，需要自己手动查看和修改，特此记录一下。&lt;/p&gt;
+&lt;p&gt;最近在linux重新安装mysql，突然发现在安装过程中不会让你输入root密码了，需要自己手动查看和修改，特此记录一下。&lt;/p&gt;
 
 &lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
