@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/post/</link>
     <description>Recent content in Posts on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Feb 2019 19:18:07 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 21:46:00 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Matplotlib显示中文</title>
+      <link>http://liubola.github.io/post/matplotlib%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/</link>
+      <pubDate>Sat, 02 Mar 2019 21:46:00 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/matplotlib%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/</guid>
+      <description>linux下使用seaborn或者matplotlib常出现中文支持问题，特此记录一下 1 sudo apt-get install msttcorefonts -qq 1 rm -rf ~/.cache/matplotlib 1 2 3 4 5 6 7 8 # matplotlib.pyplt plt.rcParams[&amp;#39;font.sans-serif&amp;#39;]=[&amp;#39;Droid Sans Fallback&amp;#39;] #用来正</description>
+    </item>
     
     <item>
       <title>Mysql远程连接</title>
