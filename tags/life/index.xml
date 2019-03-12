@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/tags/life/</link>
     <description>Recent content in Life on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 15 Feb 2019 21:30:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 16:26:43 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deepin安装dropbox</title>
+      <link>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</link>
+      <pubDate>Tue, 12 Mar 2019 16:26:43 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</guid>
+      <description>在国内快盘之流消亡殆尽后，dropbox恐是免费党最佳选择，但其安装的确是个大问题。 这里推荐使用商店安装，然后需要设置下vpn 1 2 3 4 5 6 sudo</description>
+    </item>
     
     <item>
       <title>Mysqlclient安装问题</title>

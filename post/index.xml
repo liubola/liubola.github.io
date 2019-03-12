@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/post/</link>
     <description>Recent content in Posts on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Mar 2019 21:46:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 16:26:43 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deepin安装dropbox</title>
+      <link>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</link>
+      <pubDate>Tue, 12 Mar 2019 16:26:43 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</guid>
+      <description>在国内快盘之流消亡殆尽后，dropbox恐是免费党最佳选择，但其安装的确是个大问题。 这里推荐使用商店安装，然后需要设置下vpn 1 2 3 4 5 6 sudo</description>
+    </item>
     
     <item>
       <title>Matplotlib显示中文</title>
@@ -198,17 +207,6 @@
       
       <guid>http://liubola.github.io/post/%E8%AE%B0%E9%80%9A%E8%BF%87%E8%AF%81%E5%88%B8%E4%BB%8E%E4%B8%9A%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95/</guid>
       <description>&lt;p&gt;说实话这篇文章应该也没什么值得写的内容，主要是记录下心路历程。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>雪球量化club总结</title>
-      <link>http://liubola.github.io/post/%E9%9B%AA%E7%90%83%E9%87%8F%E5%8C%96club%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Fri, 25 Aug 2017 12:57:36 +0800</pubDate>
-      
-      <guid>http://liubola.github.io/post/%E9%9B%AA%E7%90%83%E9%87%8F%E5%8C%96club%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;p&gt;上周末有幸被抽中参加雪球在上海举办的量化club。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://image.liubola.tech/%E9%9B%AA%E7%90%83%E9%87%8F%E5%8C%96club.jpg&#34; alt=&#34;雪球量化club&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
