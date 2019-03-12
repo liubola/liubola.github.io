@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/tags/life/</link>
     <description>Recent content in Life on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Mar 2019 16:26:43 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 17:40:18 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pypi免密</title>
+      <link>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</link>
+      <pubDate>Tue, 12 Mar 2019 17:40:18 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</guid>
+      <description>1 2 sudo touch .pypirc sudo vi ~.pypirc 1 2 3 4 5 6 7 [distutils] index-servers=pypi [pypi] repostory = https://upload.pypi.org/legacy/ username = xxxx password = xxxxx</description>
+    </item>
     
     <item>
       <title>Deepin安装dropbox</title>

@@ -31,6 +31,45 @@
     </item>
     
     <item>
+      <title>Pypi免密</title>
+      <link>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</link>
+      <pubDate>Tue, 12 Mar 2019 17:40:18 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</guid>
+      
+        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo touch .pypirc
+sudo vi ~.pypirc&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;distutils&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+index-servers&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pypi
+
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;pypi&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;repostory&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; https://upload.pypi.org/legacy/
+&lt;span class=&#34;nv&#34;&gt;username&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; xxxx
+&lt;span class=&#34;nv&#34;&gt;password&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; xxxxx&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Deepin安装dropbox</title>
       <link>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</link>
       <pubDate>Tue, 12 Mar 2019 16:26:43 +0800</pubDate>
@@ -1275,23 +1314,6 @@ tmux attach			恢复session&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;有些人自以为正在向着大力士之路大步迈进，有一天突然发现，自己变得越来越笨手笨脚了，经常撞在家具和组合器械上。&lt;/p&gt;
 
 &lt;p&gt;​       有些人深蹲像硬拉，有些人深蹲像表演后滚翻。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>machine learning certificate</title>
-      <link>http://liubola.github.io/post/machine-learning-certificate/</link>
-      <pubDate>Thu, 28 Sep 2017 12:57:36 +0800</pubDate>
-      
-      <guid>http://liubola.github.io/post/machine-learning-certificate/</guid>
-      
-        <description>&lt;p&gt;两周时间，证书到手。&lt;/p&gt;
-
-&lt;p&gt;吴恩达的课程讲得相当好，讲到最后一节课时，我感觉到他有点哽咽了，其实我也有点想哭。。。&lt;/p&gt;
-
-&lt;p&gt;这个课程其实不仅仅是机器学习入门，其中更蕴含着吴自身的人生观，价值观，可能这一部分的价值远远高于课程本身的知识，相信认真看完的同学都能有所感触，话不多说，晒证书。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://image.liubola.tech/machine%20learning%20cert_meitu_1.jpg&#34; alt=&#34;证书&#34; /&gt;&lt;/p&gt;</description>
       
     </item>
     

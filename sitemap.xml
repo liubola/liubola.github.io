@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</loc>
+    <lastmod>2019-03-12T17:40:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</loc>
     <lastmod>2019-03-12T16:26:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -171,7 +178,7 @@
   
   <url>
     <loc>http://liubola.github.io/tags/life/</loc>
-    <lastmod>2019-03-12T16:26:43+08:00</lastmod>
+    <lastmod>2019-03-12T17:40:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -192,7 +199,7 @@
   
   <url>
     <loc>http://liubola.github.io/post/</loc>
-    <lastmod>2019-03-12T16:26:43+08:00</lastmod>
+    <lastmod>2019-03-12T17:40:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
