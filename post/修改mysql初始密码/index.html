@@ -70,7 +70,7 @@
 
 <meta itemprop="datePublished" content="2019-02-18T18:49:19&#43;08:00" />
 <meta itemprop="dateModified" content="2019-02-18T18:49:19&#43;08:00" />
-<meta itemprop="wordCount" content="198">
+<meta itemprop="wordCount" content="150">
 
 
 
@@ -278,7 +278,7 @@
           2019-02-18
         </time>
         
-        <span class="more-meta"> 约 198 字 </span>
+        <span class="more-meta"> 约 150 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
 
         
@@ -346,7 +346,7 @@ sudo apt-get install mysql-server mysql-client</code></pre></td></tr></table>
 <h2 id="修改密码并赋予权限">修改密码并赋予权限</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -354,16 +354,16 @@ sudo apt-get install mysql-server mysql-client</code></pre></td></tr></table>
 </span><span class="lnt">6
 </span><span class="lnt">7
 </span><span class="lnt">8
-</span></pre></td>
+</span></code></pre></td>
 <td class="lntd">
-<pre class="chroma">mysql -u debian-sys-maint -p
-update mysql.user set plugin=&#34;mysql_native_password&#34; where user=&#34;root&#34;;
+<pre class="chroma"><code class="language-bash" data-lang="bash">mysql -u debian-sys-maint -p
+update mysql.user <span class="nb">set</span> <span class="nv">plugin</span><span class="o">=</span><span class="s2">&#34;mysql_native_password&#34;</span> where <span class="nv">user</span><span class="o">=</span><span class="s2">&#34;root&#34;</span><span class="p">;</span>
 
-update mysql.user set authentication_string=password(&#39;这里是你的密码&#39;) where user=&#39;root&#39;and Host = &#39;localhost&#39;;
-grant all on *.* to root@&#34;localhost&#34;;
-exit
+update mysql.user <span class="nb">set</span> <span class="nv">authentication_string</span><span class="o">=</span>password<span class="o">(</span><span class="s1">&#39;123&#39;</span><span class="o">)</span> where <span class="nv">user</span><span class="o">=</span><span class="s1">&#39;root&#39;</span>and <span class="nv">Host</span> <span class="o">=</span> <span class="s1">&#39;localhost&#39;</span><span class="p">;</span>
+grant all on *.* to root@<span class="s2">&#34;localhost&#34;</span><span class="p">;</span>
+<span class="nb">exit</span>
 
-sudo service mysql restart</pre></td></tr></table>
+sudo service mysql restart</code></pre></td></tr></table>
 </div>
 </div>
     </div>
