@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 切了特空</title>
+    <link>http://liubola.github.io/post/</link>
+    <description>Recent content in Posts on 切了特空</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 12 Mar 2019 17:40:18 +0800</lastBuildDate>
+    
+	<atom:link href="http://liubola.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pypi免密</title>
+      <link>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</link>
+      <pubDate>Tue, 12 Mar 2019 17:40:18 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/pypi%E5%85%8D%E5%AF%86/</guid>
+      <description>1 2 sudo touch .pypirc sudo vi ~.pypirc 1 2 3 4 5 6 7 [distutils] index-servers=pypi [pypi] repostory = https://upload.pypi.org/legacy/ username = xxxx password = xxxxx</description>
+    </item>
+    
+    <item>
+      <title>Deepin安装dropbox</title>
+      <link>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</link>
+      <pubDate>Tue, 12 Mar 2019 16:26:43 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/deepin%E5%AE%89%E8%A3%85dropbox/</guid>
+      <description>在国内快盘之流消亡殆尽后，dropbox恐是免费党最佳选择，但其安装的确是个大问题。 这里推荐使用商店安装，然后需要设置下vpn 1 2 3 4 5 6 sudo</description>
+    </item>
+    
+    <item>
+      <title>Matplotlib显示中文</title>
+      <link>http://liubola.github.io/post/matplotlib%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/</link>
+      <pubDate>Sat, 02 Mar 2019 21:46:00 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/matplotlib%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/</guid>
+      <description>linux下使用seaborn或者matplotlib常出现中文支持问题，特此记录一下 1 sudo apt-get install msttcorefonts -qq 1 rm -rf ~/.cache/matplotlib 之后可以尝试运行如下代码，看可使用</description>
+    </item>
+    
+    <item>
+      <title>Mysql远程连接</title>
+      <link>http://liubola.github.io/post/mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Mon, 18 Feb 2019 19:18:07 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/</guid>
+      <description>连接mysql 1 2 3 4 5 6 7 mysql -uroot -p grant all privileges on *.* to &amp;#39;root&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;YOUR_PASSWORD&amp;#39; with grant option; flush privileges; exit 修改配置 1 sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf 将bind-address = 127.0.0.1注释 1 service mysql restart</description>
+    </item>
+    
+    <item>
+      <title>修改mysql初始密码</title>
+      <link>http://liubola.github.io/post/%E4%BF%AE%E6%94%B9mysql%E5%88%9D%E5%A7%8B%E5%AF%86%E7%A0%81/</link>
+      <pubDate>Mon, 18 Feb 2019 18:49:19 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/%E4%BF%AE%E6%94%B9mysql%E5%88%9D%E5%A7%8B%E5%AF%86%E7%A0%81/</guid>
+      <description>最近在linux重新安装mysql，突然发现在安装过程中不会让你输入root密码了，需要自己手动查看和修改，特此记录一下。 安装 1 2 sudo apt-get update sudo apt-get</description>
+    </item>
+    
+    <item>
+      <title>实现deepin下类似mac中open的功能</title>
+      <link>http://liubola.github.io/post/%E5%AE%9E%E7%8E%B0deepin%E4%B8%8B%E7%B1%BB%E4%BC%BCmac%E4%B8%ADopen%E7%9A%84%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sun, 17 Feb 2019 11:56:10 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/%E5%AE%9E%E7%8E%B0deepin%E4%B8%8B%E7%B1%BB%E4%BC%BCmac%E4%B8%ADopen%E7%9A%84%E5%8A%9F%E8%83%BD/</guid>
+      <description>mac下的open十分方便，但是deepin并不支持，只能在命令行中右键打开，其实只要在~/.zshrc[中添加以下命令就可以通过op命令打</description>
+    </item>
+    
+    <item>
+      <title>Zsh及autojump配置</title>
+      <link>http://liubola.github.io/post/zsh%E5%8F%8Aautojump%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sun, 17 Feb 2019 11:43:10 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/zsh%E5%8F%8Aautojump%E9%85%8D%E7%BD%AE/</guid>
+      <description>zsh以及autojumo是linxu下办公的神器。 zsh 1 2 3 sudo apt-get install zsh wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh chsh -s /usr/bin/zsh autojump 1 2 3 git clone git://github.com/joelthelion/autojump.git cd autojump python install.py 安装完成后会跳出来一段后让你添加</description>
+    </item>
+    
+    <item>
+      <title>Github免密</title>
+      <link>http://liubola.github.io/post/github%E5%85%8D%E5%AF%86/</link>
+      <pubDate>Sun, 17 Feb 2019 11:39:01 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/github%E5%85%8D%E5%AF%86/</guid>
+      <description>github有时候懒得弄ssh，可以尝试保存下密码，免得每次重复输入。 1 git config --global credential.helper store 这样下次git push时还会询问用户名及密码，但是这次会进</description>
+    </item>
+    
+    <item>
+      <title>Mysqlclient安装问题</title>
+      <link>http://liubola.github.io/post/mysqlclient%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Fri, 15 Feb 2019 21:30:05 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/mysqlclient%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/</guid>
+      <description>问题0 deepin下安装mysqlclient时会出现 1 OSError: mysql_config not found 解决方案 1 sudo apt-get install libmysqlclient-dev python3-dev 问题1 1 ImportError: libmysqlclient.so.xx: cannot open shared object file: No such file or directory 解决方案 1 sudo apt-get install libmysqlclientxx</description>
+    </item>
+    
+    <item>
+      <title>Sqlalchemy数据库驱动</title>
+      <link>http://liubola.github.io/post/sqlalchemy%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8/</link>
+      <pubDate>Thu, 14 Feb 2019 12:46:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/sqlalchemy%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A9%B1%E5%8A%A8/</guid>
+      <description>&lt;p&gt;最近搞代码输出，帮客户配置一些代码库，常常需要用到客户本地的数据库，比如恒生聚源或者wind底层库，这时就要连接底层数据可，但是配置方面常常出问题，特别是oracle数据库，所以这里留个痕，方便以后查看。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.virtualzero.net/static/images/blog/flask_sqlalchemy/connect-a-flask-app-to-a-mysql-database-with-sqlalchemy-and-pymysql.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一切皆为多因子</title>
+      <link>http://liubola.github.io/post/%E4%B8%80%E5%88%87%E7%9A%86%E4%B8%BA%E5%A4%9A%E5%9B%A0%E5%AD%90/</link>
+      <pubDate>Sun, 10 Feb 2019 12:11:26 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/%E4%B8%80%E5%88%87%E7%9A%86%E4%B8%BA%E5%A4%9A%E5%9B%A0%E5%AD%90/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wpimg.wallstcn.com/076a44a8-be09-453d-ade9-24958f30a993.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>虎啸龙吟司马懿观后感</title>
+      <link>http://liubola.github.io/post/simayi/</link>
+      <pubDate>Mon, 01 Jan 2018 13:22:38 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/simayi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1549778749541&amp;amp;di=04af9967e853684b9bb58a853b04ea02&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg.gugu6.com%2Fuploads%2Fnews%2F2017-11-27%2F5a1bbb3bbf9d1.jpg&#34; alt=&#34;&#34; /&gt;
+仅仅分享一点个人看法。。。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>单人间的重要性</title>
+      <link>http://liubola.github.io/post/singleroom/</link>
+      <pubDate>Mon, 01 Jan 2018 13:21:34 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/singleroom/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.act-hotel.com/ch/roppongi/img/room/single/singleVisual01.jpg&#34; alt=&#34;&#34; /&gt;
+单间给了一个人独处的机会，不仅对于睡眠，对于思考也是如此。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2017流水账</title>
+      <link>http://liubola.github.io/post/2017summary/</link>
+      <pubDate>Sun, 31 Dec 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/2017summary/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://n.sinaimg.cn/sports/transform/162/w550h412/20180520/Wkpt-fzrwiaz5648195.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我本不是一个多愁善感的人，所以每到新旧交接之际，看到朋友圈的长篇大作都没什么感触，甚至还有点嗤之以鼻，毕竟哪有这么多值得记录的事情，不过考虑到我的博客已经有大约1个月的时间没有更新，那便借这个机会发篇流水账。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CNN证书</title>
+      <link>http://liubola.github.io/post/convolutional-neural-networks-certificate/</link>
+      <pubDate>Wed, 22 Nov 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/convolutional-neural-networks-certificate/</guid>
+      <description>&lt;p&gt;吴恩达老师的课的确上得好&lt;/p&gt;
+
+&lt;p&gt;cousera上的注册人数我没研究过，倒是网易云课堂的视频均浏览数才&lt;strong&gt;200+&lt;/strong&gt;，这点我觉得挺可悲的，深度学习方面最顶尖课程的浏览数还不如微信朋友圈转来转去的野鸡视频课程。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://image.liubola.tech/Convolutional%20Neural%20Networks%20certificate_meitu_1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>conda pip设置国内镜像</title>
+      <link>http://liubola.github.io/post/conda-pip%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/</link>
+      <pubDate>Mon, 20 Nov 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/conda-pip%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/</guid>
+      <description>&lt;p&gt;conda以及pip设置&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>tmux快捷键记录</title>
+      <link>http://liubola.github.io/post/tmux%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 20 Nov 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/tmux%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;p&gt;tmux的确是十分好用，不过它的命令太多，实在是记不住，我就简单记录下最常用的几个。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>deep learning certificate</title>
+      <link>http://liubola.github.io/post/deep-learning-certificate/</link>
+      <pubDate>Wed, 11 Oct 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/deep-learning-certificate/</guid>
+      <description>&lt;p&gt;第一部分的课程结束，同样的，optional的interview信息量比正课更高。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://image.liubola.tech/dpl_cert_meitu_1.jpg&#34; alt=&#34;deep learning certificate&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>转-看电视上班俯卧撑：我的训练法则</title>
+      <link>http://liubola.github.io/post/%E8%BD%AC-%E7%9C%8B%E7%94%B5%E8%A7%86%E4%B8%8A%E7%8F%AD%E4%BF%AF%E5%8D%A7%E6%92%91%E6%88%91%E7%9A%84%E8%AE%AD%E7%BB%83%E6%B3%95%E5%88%99/</link>
+      <pubDate>Sun, 08 Oct 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/%E8%BD%AC-%E7%9C%8B%E7%94%B5%E8%A7%86%E4%B8%8A%E7%8F%AD%E4%BF%AF%E5%8D%A7%E6%92%91%E6%88%91%E7%9A%84%E8%AE%AD%E7%BB%83%E6%B3%95%E5%88%99/</guid>
+      <description>&lt;p&gt;这是一篇我保存了很久的文章，有关于健身理念的，在此转载分享。
+&lt;img src=&#34;https://cdntwrunning.biji.co/800_16776C73-DE8B-ABD3-F27C-ACD0B8BB127B.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>machine learning certificate</title>
+      <link>http://liubola.github.io/post/machine-learning-certificate/</link>
+      <pubDate>Thu, 28 Sep 2017 12:57:36 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/machine-learning-certificate/</guid>
+      <description>&lt;p&gt;两周时间，证书到手。&lt;/p&gt;
+
+&lt;p&gt;吴恩达的课程讲得相当好，讲到最后一节课时，我感觉到他有点哽咽了，其实我也有点想哭。。。&lt;/p&gt;
+
+&lt;p&gt;这个课程其实不仅仅是机器学习入门，其中更蕴含着吴自身的人生观，价值观，可能这一部分的价值远远高于课程本身的知识，相信认真看完的同学都能有所感触，话不多说，晒证书。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://image.liubola.tech/machine%20learning%20cert_meitu_1.jpg&#34; alt=&#34;证书&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
