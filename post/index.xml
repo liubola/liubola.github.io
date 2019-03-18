@@ -34,7 +34,7 @@
       <pubDate>Sat, 02 Mar 2019 21:46:00 +0800</pubDate>
       
       <guid>http://liubola.github.io/post/matplotlib%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87/</guid>
-      <description>linux下使用seaborn或者matplotlib常出现中文支持问题，特此记录一下 1 2 sudo apt-get install msttcorefonts -qq git clone https://github.com/tracyone/program_font &amp;amp;&amp;amp; cd program_font &amp;amp;&amp;amp; ./install.sh 1 rm -rf ~/.cache/matplotlib 1 2 3 4 5 6 7 8</description>
+      <description>linux下使用seaborn或者matplotlib常出现中文支持问题，特此记录一下 1 2 sudo apt-get install msttcorefonts -qq git clone https://github.com/tracyone/program_font &amp;amp;&amp;amp; cd program_font &amp;amp;&amp;amp; ./install.sh 1 rm -rf ~/.cache/matplotlib 执行以下脚本可显</description>
     </item>
     
     <item>
