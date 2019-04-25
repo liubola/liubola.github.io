@@ -5,10 +5,19 @@
     <link>http://liubola.github.io/tags/linux/</link>
     <description>Recent content in Linux on 切了特空</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Feb 2019 19:18:07 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 08:41:18 +0800</lastBuildDate>
     
 	<atom:link href="http://liubola.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zsh配置virtualenvwrapper</title>
+      <link>http://liubola.github.io/post/zsh%E9%85%8D%E7%BD%AEvirtualenvwrapper/</link>
+      <pubDate>Thu, 25 Apr 2019 08:41:18 +0800</pubDate>
+      
+      <guid>http://liubola.github.io/post/zsh%E9%85%8D%E7%BD%AEvirtualenvwrapper/</guid>
+      <description>python的virtualenvwrapper对于虚拟环境的建立还是挺好用的，但是在zsh下需要设置一下，首先安装 1 pip install virtualenvwrapper 再找到virtu</description>
+    </item>
     
     <item>
       <title>Mysql远程连接</title>
